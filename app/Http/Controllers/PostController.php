@@ -20,14 +20,13 @@ class PostController extends Controller
         ]);
     }
 
-    // https://youtu.be/MG1kt_wiIz0?t=7691
 
     /**
      * Show the form for creating a new resource.
      */
     public function create()
     {
-        //
+        return view('posts.create');
     }
 
     /**
