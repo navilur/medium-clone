@@ -12,7 +12,7 @@
             </div>
 
             <div class="flex">
-                <a href='/post/create' class="flex items-center">
+                <a href='{{ route('post.create') }}' class="flex items-center">
                     <x-primary-button>
                         Create Post
                     </x-primary-button>
@@ -71,8 +71,6 @@
             </div>
         </div>
     </div>
-
-    {{-- https://youtu.be/MG1kt_wiIz0?t=7976 --}}
 
     <!-- Responsive Navigation Menu -->
     <div :class="{ 'block': open, 'hidden': !open }" class="hidden sm:hidden">
